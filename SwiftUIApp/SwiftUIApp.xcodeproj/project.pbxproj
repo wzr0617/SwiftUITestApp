@@ -15,6 +15,9 @@
 		843044A6244B31860054B156 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843044A4244B31860054B156 /* LaunchScreen.storyboard */; };
 		843044B1244B31860054B156 /* SwiftUIAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843044B0244B31860054B156 /* SwiftUIAppTests.swift */; };
 		843044BC244B31860054B156 /* SwiftUIAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843044BB244B31860054B156 /* SwiftUIAppUITests.swift */; };
+		843044CA244B3E8E0054B156 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843044C9244B3E8E0054B156 /* Room.swift */; };
+		843044CC244B51DA0054B156 /* RoomDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843044CB244B51DA0054B156 /* RoomDetail.swift */; };
+		84531B3F244CB552001021C6 /* RoomStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84531B3E244CB552001021C6 /* RoomStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		843044B7244B31860054B156 /* SwiftUIAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		843044BB244B31860054B156 /* SwiftUIAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAppUITests.swift; sourceTree = "<group>"; };
 		843044BD244B31860054B156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843044C9244B3E8E0054B156 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		843044CB244B51DA0054B156 /* RoomDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomDetail.swift; sourceTree = "<group>"; };
+		84531B3E244CB552001021C6 /* RoomStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 				84304499244B31840054B156 /* AppDelegate.swift */,
 				8430449B244B31840054B156 /* SceneDelegate.swift */,
 				8430449D244B31840054B156 /* ContentView.swift */,
+				843044C9244B3E8E0054B156 /* Room.swift */,
+				843044CB244B51DA0054B156 /* RoomDetail.swift */,
+				84531B3E244CB552001021C6 /* RoomStore.swift */,
 				8430449F244B31860054B156 /* Assets.xcassets */,
 				843044A4244B31860054B156 /* LaunchScreen.storyboard */,
 				843044A7244B31860054B156 /* Info.plist */,
@@ -267,8 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843044CC244B51DA0054B156 /* RoomDetail.swift in Sources */,
 				8430449A244B31840054B156 /* AppDelegate.swift in Sources */,
 				8430449C244B31840054B156 /* SceneDelegate.swift in Sources */,
+				843044CA244B3E8E0054B156 /* Room.swift in Sources */,
+				84531B3F244CB552001021C6 /* RoomStore.swift in Sources */,
 				8430449E244B31840054B156 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
